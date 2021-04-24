@@ -1,0 +1,98 @@
+.header-img.one {
+  background-image: url("../img/shop/bloom.webp");
+}
+
+.header-img.two {
+  background-image: url("../img/plants_ground.jpeg");
+}
+
+.header-img.three {
+  background-image: url("../img/plants_ground.jpeg");
+}
+
+.partners {
+  color: #fefefe;
+  padding-top: 50px;
+}
+
+.cards .content {
+  padding: 10px;
+  font-family: "Playfair Display", serif;
+  color: #fefefe;
+}
+.cards .content .price {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+}
+.cards .content .cards-image {
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center center;
+}
+.cards .content .cards-image div {
+  background-color: #070707;
+  height: 100%;
+  opacity: 0;
+  transition: 0.2s;
+}
+.cards .content .cards-image div p {
+  padding: 0 30px;
+  display: block;
+  position: absolute;
+  top: 30%;
+}
+.cards .content .cards-image div:hover {
+  opacity: 0.8;
+}
+.cards .content .img1 {
+  background-image: url("../img/shop/spring.webp");
+}
+.cards .content .img2 {
+  background-image: url("../img/shop/pretty-green.webp");
+}
+.cards .content .img3 {
+  background-image: url("../img/shop/deluxe.webp");
+}
+.cards .content .img4 {
+  background-image: url("../img/shop/evolving-hues.webp");
+}
+.cards .content .img5 {
+  background-image: url("../img/shop/atelier.webp");
+}
+.cards .content .img6 {
+  background-image: url("../img/shop/astro-spring.webp");
+}
+.cards .content .img7 {
+  background-image: url("../img/shop/eternal-blush.webp");
+}
+.cards .content .img8 {
+  background-image: url("../img/shop/firestone.webp");
+}
+.cards .content .price {
+  font-style: italic;
+}
+.cards .content h2 {
+  font-size: 1.3em;
+  line-height: 1.5em;
+  color: #fefefe;
+}
+.cards caption {
+  padding: 10px;
+}
+
+.main-but {
+  background-color: black;
+  padding: 12px 25px;
+  color: #fefefe;
+  font-family: "Playfair Display", serif;
+  transition: 0.3s;
+  margin: 5px;
+  border: none;
+}
+.main-but:hover {
+  text-decoration: none;
+  background-color: #be6f62;
+}
+
+/*# sourceMappingURL=shop.css.map */

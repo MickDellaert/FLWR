@@ -1,0 +1,96 @@
+.header-img.one {
+    background-image: url("../img/details_main_1.jpg");
+}
+
+.img1-detail {
+    background-image: url("../img/details_flowers_1.jpg");
+}
+
+.img2-detail {
+    background-image: url("../img/details_flowers_2.jpg");
+}
+
+.img3-detail {
+    background-image: url("../img/details_flowers_3.jpg");
+}
+
+.carousel-image {
+    width: 100%;
+    height: 65vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.small-image1 {
+    background-image: url("../img/vaas_1.jpg");Z
+}
+
+.small-image2 {
+    background-image: url("../img/vaas_2.jpg");
+}
+
+.small-image3 {
+    background-image: url("../img/vaas_3.jpg");
+}
+
+.pots {
+    width: 14vh;
+    height: 14vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.bio-img1 {
+    background-image: url("../img/details_bio_3.png");
+}
+
+.bio-img-pos {
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+body, .text-secondary {
+    background-color: #282728;
+    color: #fefefe;
+}
+
+.body-font {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 1.2em;
+}
+
+.body-font-sm {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 1em;
+}
+
+.partners {
+    color: #fefefe;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+.bg-color-dark {
+    background-color: #232120;
+}
+
+.rule {
+    color: #fefefe;
+    background-color: #fefefe;
+}
+
+
+
+.price-flowers {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+}
+

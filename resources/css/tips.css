@@ -1,0 +1,35 @@
+.header-img {
+    background-image: url("../img/indoor_garden.jpg");
+}
+
+main{
+    color:#fefefe;
+}
+.reason{
+    margin: auto;
+    width: 200px;
+    padding:0;
+    text-align:left;
+}
+
+
+
+iframe {
+    width: 100%;
+    height:400px;
+}
+
+.video {
+    margin:0;
+}
+
+.tips-tricks {
+    border: none !important;
+    padding:10px 20px;
+    background-color: #e9b3aa;
+    transition: 0.3s;
+}
+
+.tips-tricks:hover {
+    background-color: #be6f62;
+}

@@ -1,0 +1,322 @@
+/*GLOBAL STYLES*/
+
+$hover-color: #be6f62;
+$btn-base: #e9b3aa;
+$off-white: #fefefe;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #282728;
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  color:$off-white;
+}
+
+a {
+  text-decoration: none;
+}
+
+#ourplants {
+  .body-font {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 1.2em;
+  }
+}
+
+
+
+.navbar-toggler {
+  border-color: rgba(255, 102, 203, 0.0) !important;
+  background-image: url("data:image/svg+xml;..");
+}
+
+/*END GLOBAL STYLES*/
+
+/*BUTTON STYLES*/
+a.main-but {
+  background-color: black;
+  padding: 12px 25px;
+  color: $off-white;
+  font-family: 'Playfair Display', serif;
+  transition: 0.3s;
+  margin: 5px;
+
+  &:hover {
+    text-decoration: none;
+    background-color: $hover-color;
+  }
+}
+
+/* END BUTTON STYLES*/
+
+/*NAVBAR*/
+.navbar {
+  position: absolute;
+  z-index: 5;
+  background-color: transparent;
+
+  img {
+    width: 100px;
+    height: 100%;
+  }
+
+  .social-icons {
+
+
+
+    ul li {
+      display: inline;
+      padding: 0 10px;
+
+
+      a {
+        color:$off-white;
+        transition: 0.3s;
+        &:hover {
+          color: $hover-color;
+          cursor: pointer;
+        }
+      }
+
+
+
+    }
+  }
+
+  a {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+  }
+
+  .link-active {
+    border-bottom: 2px solid $off-white;
+    padding-bottom: 5px !important;
+
+  }
+
+  .nav-link {
+    color: white;
+    font-family: "Playfair Display", serif;
+    transition: 0.3s;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+
+    &:hover {
+      color: $hover-color;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar {
+    position: relative;
+    z-index: 5;
+    background-color: #191919;
+    width: 100%;
+
+
+    ul {
+      padding-top: 10px;
+    }
+
+    .nav-item {
+      a {
+        margin: 0 !important;
+        padding-top: 10px;
+
+        &.link-active {
+          border: 0;
+        }
+      }
+    }
+
+    .social-icons {
+      margin-top: 20px;
+
+      ul {
+        padding-left: 0;
+
+        li {
+          padding-left: 0;
+        }
+      }
+    }
+
+  }
+}
+
+/*END NAVBAR*/
+
+/*HEADER STYLES*/
+a.header-but {
+  background-color: #e9b3aa;
+  padding: 20px 40px;
+  color: #fefefe;
+  font-family: 'Playfair Display', serif;
+  transition: 1s;
+
+  &:hover {
+    text-decoration: none;
+    background-color: #be6f62;
+  }
+}
+
+.header-img {
+  padding: 0;
+  height: 100vh;
+  background-image: url("../img/plants_ground.jpeg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item {
+  .shade {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100vh;
+  }
+
+  .carousel-caption {
+    top: 55%;
+    transform: translateY(-50%);
+
+    h5 {
+      font-size: 3em;
+      font-family: 'Playfair Display', serif;
+    }
+  }
+}
+
+/* END HEADER STYLES*/
+
+
+/*FOOTER STYLES*/
+footer {
+  background-color: #191919;
+  padding: 50px 10px;
+  color: white;
+
+  img {
+    width: 100px;
+    height: 30px;
+  }
+
+  h3 {
+    font-size:1.5rem;
+  }
+
+  .contact-link {
+   .link {
+     ul {
+       padding-left:0;
+       li {
+         list-style-type: none;
+         a {
+           color:$off-white;
+           transition: 0.3s;
+
+           &:hover {
+             color:$hover-color;
+             text-decoration: none;
+           }
+         }
+       }
+     }
+   }
+  }
+
+  .contact a {
+    color: $btn-base;
+    transition: 0.3s;
+
+    &:hover {
+      color:$hover-color;
+      text-decoration: none;
+    }
+  }
+  .links {
+    text-align: center;
+    padding:60px 10px 0 10px;
+
+    ul {
+      li {
+        display: inline;
+        border-right: 1px solid $off-white;
+
+        &:last-child {
+          border: none;
+        }
+
+        a {
+          color:$off-white;
+        }
+
+      }
+    }
+  }
+
+  section {
+    img {
+      margin-bottom: 15px;
+    }
+  }
+
+  .subscription {
+    padding:0 30px;
+
+    input {
+      height: 50px;
+      border: none;
+
+      &::placeholder {
+        padding-left: 10px;
+      }
+
+      &.input {
+        background-color: #282728;
+        color: $off-white;
+      }
+
+      &.submit {
+        background-color: $btn-base;
+        transition: 0.3s;
+        color: $off-white;
+
+        &:hover {
+          background-color: $hover-color;
+        }
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width: 786px) {
+  footer {
+    .contact-link {
+      padding:20px 50px;
+
+      .link {
+        padding-bottom:20px;
+      }
+    }
+  }
+
+  .carousel-item {
+    .carousel-caption {
+      top: 47%;
+      transform: translateY(-50%);
+    }
+  }
+
+}
+
+/*END FOOTER STYLES*/

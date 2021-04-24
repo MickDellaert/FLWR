@@ -1,0 +1,134 @@
+$off-white: #fefefe;
+$hover-color: #be6f62;
+
+.header-img.one {
+  background-image: url("../img/shop/bloom.webp");
+}
+
+.header-img.two {
+  background-image: url("../img/plants_ground.jpeg");
+}
+
+.header-img.three {
+  background-image: url("../img/plants_ground.jpeg");
+}
+
+
+
+.partners {
+  color: #fefefe;
+  padding-top: 50px;
+}
+
+.cards {
+  .content {
+    padding: 10px;
+    font-family: "Playfair Display", serif;
+    color: #fefefe;
+
+    .price {
+      font-family: "Helvetica Neue", sans-serif;
+      font-weight: lighter;
+    }
+
+
+    .cards-image {
+      width: 100%;
+      height: 50vh;
+      background-size: cover;
+      background-position: center center;
+
+
+
+      div {
+        background-color: #070707;
+        height: 100%;
+        opacity: 0.0;
+        transition: 0.2s;
+
+        p {
+          padding: 0 30px;
+          display: block;
+          position: absolute;
+          top: 30%;
+        }
+
+        &:hover {
+          opacity: 0.8;
+        }
+
+      }
+    }
+
+    .img1 {
+      background-image: url("../img/shop/spring.webp");
+
+
+    }
+
+    .img2 {
+      background-image: url("../img/shop/pretty-green.webp");
+    }
+
+    .img3 {
+      background-image: url("../img/shop/deluxe.webp");
+    }
+
+    .img4 {
+      background-image: url("../img/shop/evolving-hues.webp");
+    }
+
+    .img5 {
+      background-image: url("../img/shop/atelier.webp");
+    }
+
+    .img6 {
+      background-image: url("../img/shop/astro-spring.webp");
+    }
+
+    .img7 {
+      background-image: url("../img/shop/eternal-blush.webp");
+    }
+
+    .img8 {
+      background-image: url("../img/shop/firestone.webp");
+    }
+
+    .price {
+      font-style: italic;
+    }
+
+    h2 {
+      font-size: 1.3em;
+      line-height: 1.5em;
+      color: #fefefe;
+    }
+
+    button {
+
+    }
+  }
+
+
+  caption {
+    padding: 10px;
+  }
+
+
+}
+
+
+.main-but {
+  background-color: black;
+  padding: 12px 25px;
+  color: #fefefe;
+  font-family: "Playfair Display", serif;
+  transition: 0.3s;
+  margin: 5px;
+  border:none;
+  &:hover {
+    text-decoration: none;
+    background-color: #be6f62;
+  }
+
+}
