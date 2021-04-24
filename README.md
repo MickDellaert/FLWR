@@ -1,2 +1,2 @@
 # FLWR
-https://mickdellaert.github.io/FLWR/
+https://mickdellaert.github.io/FLWR/index.html
