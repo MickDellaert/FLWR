@@ -1,6 +1,7 @@
 https://mickdellaert.github.io/FLWR/index.html
 
 # FLWR
+<<<<<<< HEAD
 
 ![Image of a cat saying welcome aboard](https://memegenerator.net/img/instances/47489312/welcome-aboard.jpg)
 
@@ -181,3 +182,6 @@ We also made use of the following in the creation of our project:
 #### Hilltop B&B
 
 - [x] Add at least one on hover animation
+=======
+https://mickdellaert.github.io/FLWR/index.html
+>>>>>>> 0e8d0355d3ad20103ba235611e76a0e0f5dd5786
