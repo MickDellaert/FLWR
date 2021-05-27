@@ -1,6 +1,24 @@
+# FLWR
+
+Accumulating our newly acquired skills in our first group project:
+* Working together and communicating about a common project
+* Contributing personal input on concept, styling and content on the whole project and personally made page
+* Version control, pushing and pulling with github and deploying the website
+
+Personal learnings:
+* Applying previously learned skills and putting it all together
+  * Building a responsive page with Bootstrap
+  * Structuring the page with HTML sections
+  * Adding the CSS style that need to be consistent throughout the website
+  * Providing content for the personally assigned part of the project
+  * All communication done online via Discord
+  * Communicating and evaluating the project as a whole and personal input  
+  
+Checkout the result over here:
 https://mickdellaert.github.io/FLWR/index.html
 
-# FLWR
+---
+
 
 ![Image of a cat saying welcome aboard](https://memegenerator.net/img/instances/47489312/welcome-aboard.jpg)
 
