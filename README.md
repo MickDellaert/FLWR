@@ -1,7 +1,6 @@
 https://mickdellaert.github.io/FLWR/index.html
 
 # FLWR
-<<<<<<< HEAD
 
 ![Image of a cat saying welcome aboard](https://memegenerator.net/img/instances/47489312/welcome-aboard.jpg)
 
